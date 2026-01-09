@@ -3,7 +3,7 @@ import { OrbitControls, useGLTF, Stage } from '@react-three/drei';
 
 // Компонент для загрузки модели
 const HumanModel = () => {
-  const gltf = useGLTF('public/models/human1.glb');
+  const gltf = useGLTF('models/human1.glb');
   return <primitive object={gltf.scene} scale={1} />;
 };
 
