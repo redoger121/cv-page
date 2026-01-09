@@ -18,7 +18,4 @@ export default defineConfig(({ mode }) => ({
       shared: path.resolve(__dirname, 'src/shared'),
     },
   },
-  build: {
-    chunkSizeWarningLimit: 1000,
-  },
 }));

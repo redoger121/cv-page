@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --no-history"
+    "deploy": "gh-pages -d dist --no-history -f"
   },
   "dependencies": {
     "@iconify/react": "^6.0.2",
