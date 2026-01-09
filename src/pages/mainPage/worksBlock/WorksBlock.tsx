@@ -19,7 +19,6 @@ export const WorksBlock = () => {
         <div>
           {works.map((work, index) => {
             const showDivider = index < works.length - 1;
-            console.log(showDivider);
             return <WorkCard {...work} key={index} showDivider={showDivider} />;
           })}
         </div>
