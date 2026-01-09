@@ -1,5 +1,5 @@
 :root {
-  font-family: "JetBrainsMono-Regular", monospace;
+  font-family: "JetBrains Mono", monospace;
   min-height: 100vh;
   font-weight: 400;
   color-scheme: light dark;
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  font-family: 'JetBrainsMono-Regular';
+  font-family: 'JetBrains Mono';
   src: url('/fonts/JetBrainsMono-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
