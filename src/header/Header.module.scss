@@ -1,0 +1,38 @@
+.headerContainer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--second-border-color);
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+
+  backdrop-filter: url(#glass) blur(2px);
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100rem;
+  gap: 20px;
+}
+
+.headerItemsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.item {
+  background-color: transparent;
+  color: var(--text-color);
+  transition:
+    color 0.4s ease,
+    background-color 0.4s ease;
+  text-decoration: none;
+  font-size: 0.875rem;
+  &:hover {
+    color: white;
+  }
+}

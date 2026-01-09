@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 100%;        /* контейнер реально сжимается */
+  height: 0;
+  padding-bottom: 41%;     /* соотношение 420 / 1026 */
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid var(--second-border-color);
+}
+
+.item {
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: grab;
+  will-change: transform;
+  background: transparent;
+}

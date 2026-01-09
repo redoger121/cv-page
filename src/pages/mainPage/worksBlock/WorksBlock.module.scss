@@ -1,0 +1,17 @@
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.text {
+    max-width: 42rem;
+    text-align: center;
+}

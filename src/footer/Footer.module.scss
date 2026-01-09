@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  border: 1px solid var( --second-border-color);
+}
+
+.container {
+  max-width: 72rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.greenText {
+  color: var(--green-color);
+}
+.blueText {
+  color: var(--blue-color);
+}
+.yellowText {
+  color: var(--yellow-color);
+}

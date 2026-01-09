@@ -1,0 +1,109 @@
+.blockContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container {
+  max-width: 56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  max-width: 42rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.h3Text {
+  color: var(--neutral-color);
+  font-size: 1.5rem;
+  font-weight: inherit;
+}
+
+.descriptionText {
+  margin-bottom: 1.5rem;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  border: 1px solid;
+  height: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  justify-content: center;
+  padding: 0.3rem;
+  transition-duration: 0.5s;
+  padding-inline: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.githubLink {
+  color: oklch(71.4% 0.203 305.504deg);
+
+  &:hover {
+    background-color: color-mix(in oklab, oklch(71.4% 0.203 305.504) 10%, transparent);
+  }
+}
+
+.emailLink {
+  color: var(--yellow-color);
+
+  &:hover {
+    background-color: color-mix(in oklab, var(--yellow-color) 10%, transparent);
+  }
+}
+
+.telegramLink {
+  color: oklch(70.7% 0.165 254.624);
+
+  &:hover {
+    background-color: color-mix(in oklab, oklch(70.7% 0.165 254.624) 10%, transparent);
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.rightBlockContainer {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 1.5rem;
+  border: 1px solid var(--second-border-color);
+  border-radius: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.codeTextContainer {
+  margin-left: 1rem;
+}
+
+.yellowText {
+  color: var(--yellow-color);
+}
+
+.greenText {
+  color: var(--green-color);
+}

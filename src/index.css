@@ -1,0 +1,78 @@
+:root {
+  font-family: "JetBrains Mono", monospace;
+  min-height: 100vh;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --grid-size: 50px;
+  --grid-line: 2px;
+  --grid-color: oklch(92% 0.004 286.32);
+  --green-color: oklch(79.2% 0.209 151.711);
+  --blue-color: oklch(70.7% 0.165 254.624);
+  --grey-color: oklch(55.2% 0.016 285.938);
+  --grey-background: oklch(27.4% 0.006 286.033);
+  --color-orange-400: oklch(75% .183 55.934);
+  --yellow-color: oklch(85.2% 0.199 91.936);
+
+
+}
+
+
+button {
+  border: none;
+  font-size: 14px;
+  background-color: transparent;
+  font-family: "JetBrains Mono", monospace;
+}
+
+span {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+html:not(.dark) {
+  --bg-color: #fff;
+  --text-color: oklch(70.5% 0.015 286.067);
+  --border-color: oklch(70.5% 0.015 286.067);
+  --neutral-color: black;
+  --ui-text: oklch(37% 0.013 285.805);
+  --icon-background: oklch(96.7% 0.001 286.375);
+  --second-border-color: oklch(87.1% 0.006 286.286);
+}
+
+html.dark {
+  --bg-color: oklch(21% 0.006 285.885);
+  --text-color: oklch(70.5% 0.015 286.067);
+  --border-color: oklch(27.4% 0.006 286.033);
+  --neutral-color: white;
+  --ui-text: oklch(92% 0.004 286.32);
+  --icon-background: oklch(27.4% 0.006 286.033);
+  --second-border-color: oklch(37% 0.013 285.805);
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
+  height: 100%;
+
+}
+
+section {
+  padding: 8rem 0;
+  scroll-margin-top: 80px;
+}

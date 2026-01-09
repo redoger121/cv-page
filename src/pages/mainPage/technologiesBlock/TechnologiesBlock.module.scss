@@ -1,0 +1,40 @@
+.blockContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container {
+  width: 100%;        /* обязательно */
+  max-width: 64rem;   /* можно оставить, но важно width:100% */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;    /* чтобы на мобилке был отступ */
+  box-sizing: border-box;
+}
+
+.text {
+  max-width: 42rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.bottomContentContainer {
+  border: 1px solid var(--second-border-color);
+  padding: 0.75rem;
+  padding-inline: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+
+}
+
+.greenText {
+  color: var(--green-color);
+}
+
+.orangeText {
+  color: var(--color-orange-400);
+}
